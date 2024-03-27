@@ -1,0 +1,38 @@
+.mainApp {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(43, 14, 60, 0.62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+@media (max-width: 720px){
+    .add_button{
+        padding-top: 20px;
+    }
+}
+@media (min-width: 721px) and (max-width: 1080px){
+    .add_button{
+        padding-right: 165px;
+        padding-top: 20px;
+    }
+}
+@media(min-width: 1081px){
+    .add_button{
+        padding-right: 375px;
+        padding-top: 20px;
+    }
+}
