@@ -1,0 +1,21 @@
+.app_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 720px){
+    .App-logo {
+        max-width: 90%;
+        max-height: 90%;
+    }
+}
+@media (min-width: 721px){
+    .App-logo {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}

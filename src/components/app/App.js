@@ -5,13 +5,15 @@ import Button from '../button/Button';
 import Form from '../form/Form';
 import './App.css';
 
-// This component represents the main application layout, including a header, carousel, and an option to add a new participant.
-// It utilizes state to manage the visibility of a form for adding participants. When the "Add new participant" button is clicked,
-// the form becomes visible, and when closed, it hides again.
-// The structure is composed of a header, a carousel section, and a button triggering the form's visibility state.
-// Additionally, a form overlay is displayed conditionally based on the 'isFormVisible' state, allowing users to interact with it.
-// The 'showForm' and 'hideForm' functions manage the visibility state of the form.
-
+/**
+ * Represents the main application layout, including a header, carousel, and an option to add a new participant.
+ * Utilizes state to manage the visibility of a form for adding participants. When the "Add new participant" button is clicked,
+ * the form becomes visible, and when closed, it hides again.
+ * The structure is composed of a header, a carousel section, and a button triggering the form's visibility state.
+ * Additionally, a form overlay is displayed conditionally based on the 'isFormVisible' state, allowing users to interact with it.
+ * The 'showForm' and 'hideForm' functions manage the visibility state of the form.
+ * @returns {JSX.Element} The main application component.
+ */
 const App = () => {
     const [isFormVisible, setFormVisible] = useState(false);
     const showForm = () => {

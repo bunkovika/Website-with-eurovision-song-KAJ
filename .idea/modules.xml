@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/euro.iml" filepath="$PROJECT_DIR$/.idea/euro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../eurovision/.idea/eurovision.iml" filepath="$PROJECT_DIR$/../eurovision/.idea/eurovision.iml" />
     </modules>
   </component>
 </project>

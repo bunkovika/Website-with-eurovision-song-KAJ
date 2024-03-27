@@ -1,0 +1,80 @@
+.form_for_inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #f7eaea;
+    border-radius: 35px;
+    margin: 120px; /*to delete*/
+    padding: 20px;
+    gap: 20px;
+    border: 3px dotted #4e285c;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+select,
+input {
+    background: #613A6B;
+    border-radius: 10px;
+    border: 1px solid #4e285c;
+    color: white;
+    width: 100%;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 10px;
+}
+
+.song-input {
+    display: flex;
+    align-items: center;
+    background: #613A6B;
+    border-radius: 10px;
+    border: 1px solid #4e285c;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+    height: 40px;
+    width:100%;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.song-input:hover {
+    border: 3px solid rgba(255, 252, 255, 0.68);
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.95);
+}
+
+select option {
+    color: rgba(237, 217, 237, 0.8);
+}
+
+select:hover,
+input:hover{
+    border: 3px solid rgb(247, 234, 234);
+}
+
+.image-preview {
+    border-radius: 30px;
+    width: 125px;
+    height: 125px;
+    cursor: pointer ;
+}
+.image_upload_audio{
+    margin-left: auto;
+}
+.close_image{
+    margin-left: auto;
+    margin-bottom: -25px;
+}
+.close_image:hover {
+    box-shadow: 0 0 10px rgba(78, 40, 92, 0.7);
+    border-radius: 20px;
+}

@@ -1,0 +1,33 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Kantumruy';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    color: #FFFFFF;
+    background: #613A6B;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgba(35, 1, 43, 0.9);
+}
+
+.button-style-add-participant{
+    width: 200px;
+    height: 45px;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.button-style-add-form {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    padding-right: 20px;
+}

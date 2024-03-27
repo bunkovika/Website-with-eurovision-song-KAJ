@@ -1,0 +1,436 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.1s ease;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.carousel-item {
+    box-sizing: border-box;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*------------dots----------------------------------------------------*/
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel-dot.active {
+    background-color: #613A6B;
+    width: 15px;
+    height: 15px;
+    margin-top: -2px;
+}
+.carousel-item {
+    position: relative;
+}
+/*-----------animation------------*/
+.heart{
+    transition: transform 0.3s ease-in-out;
+}
+
+.heart.animate {
+    animation: heartAnimation 0.3s ease-in-out;
+}
+
+@keyframes heartAnimation {
+    0% {
+        transform: scale(1) translateY(0);
+    }
+    50% {
+        transform: scale(1.2) translateY(-10px);
+    }
+    100% {
+        transform: scale(1) translateY(0);
+    }
+}
+@media(min-width: 1081px){
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(43, 14, 60, 0.62);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+    .participants-heading {
+        padding-top: 30px;
+        font-family: 'Kaisei HarunoUmi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        /*font-size:3vw;*/
+        line-height: 58px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+    .carousel-item:last-child {
+        margin-right: 0;
+    }
+
+    .carousel-item:first-child,
+    .carousel-item:nth-child(3) {
+        width: 160px;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .carousel-item:nth-child(2) {
+        width: 200px;
+        height: 290px;
+
+    }
+    .carousel-item:first-child .image_country,
+    .carousel-item:nth-child(3) .image_country {
+        width: 140px;
+        height: 140px;
+    }
+
+    .carousel-item:first-child .song,
+    .carousel-item:nth-child(3) .song {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .carousel-item:first-child .country,
+    .carousel-item:nth-child(3) .country {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .carousel-item .country {
+        font-family: 'Kantumruy';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 28px;
+        color: #613A6B;
+        flex-grow: 1;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 9ch;
+    }
+
+    .carousel-item .song {
+        font-family: 'Kantumruy';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        color: #613A6B;
+        margin-bottom: 25px;
+        flex-grow: 1;
+        margin-left: 10px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .image_country {
+        width: 160px;
+        height: 160px;
+        border-radius: 15px;
+        position: relative;
+        top: -10px;
+    }
+
+    .carousel-btn {
+        margin: 0 8px;
+        cursor: pointer;
+    }
+    .next:hover{
+        content: url('../../assets/arrow_next_hover.svg');
+    }
+    .prev {
+        order: -1;
+    }
+    .prev:hover{
+        content: url('../../assets/arrow_prev_hover.svg');
+    }
+    .play-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .play {
+        width: 36px !important;
+        height: 36px !important;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .carousel-item:first-child .play,
+    .carousel-item:nth-child(3) .play {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .carousel-item:first-child .close__image,
+    .carousel-item:nth-child(3) .close__image{
+        width: 20px;
+        height: 20px;
+    }
+    .local-delete-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .country{
+        text-align: center;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 1080px) {
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(43, 14, 60, 0.62);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+    .participants-heading {
+        padding-top: 30px;
+        font-family: 'Kaisei HarunoUmi';
+        font-style: normal;
+        font-weight: 500;
+        /*font-size: 28px;*/
+        font-size:3vw;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+    .carousel-wrapper {
+        display: flex;
+    }
+    .carousel-item{
+        width:170px;
+        height: 270px;
+        justify-content: space-between;
+    }
+    .carousel-item .country {
+        font-family: 'Kantumruy';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        color: #613A6B;
+        flex-grow: 1;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 9ch;
+    }
+
+    .carousel-item .song {
+        font-family: 'Kantumruy';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        color: #613A6B;
+        margin-bottom: 25px;
+        flex-grow: 1;
+        margin-left: 10px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .image_country {
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+        position: relative;
+        top: -10px;
+    }
+
+    .carousel-btn {
+        margin: 0 8px;
+        cursor: pointer;
+    }
+    .play-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .play {
+        width: 30px !important;
+        height: 30px !important;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .local-delete-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .close__image {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .country{
+        text-align: center;
+    }
+    .prev {
+        order: -1;
+        width:25px;
+    }
+    .next{
+        width:25px;
+    }
+    .next:hover{
+        content: url('../../assets/arrow_next_hover.svg');
+    }
+
+    .prev:hover{
+        content: url('../../assets/arrow_prev_hover.svg');
+    }
+}
+
+@media (max-width: 720px) {
+    .overlay{
+        display: none;
+    }
+    .participants-heading {
+        padding-top: 10px;
+        font-family: 'Kaisei HarunoUmi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        /*font-size:4vw;*/
+        line-height: 18px;
+        color: #FFFFFF;
+        margin-bottom: 0px;
+    }
+    .carousel-wrapper {
+        display: flex;
+    }
+    .carousel-item{
+        width:150px;
+        height: 250px;
+        margin : 0px;
+    }
+    .carousel-item .country {
+        font-family: 'Kantumruy';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        color: #613A6B;
+        flex-grow: 1;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 9ch;
+    }
+
+    .carousel-item .song {
+        font-family: 'Kantumruy';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        color: #613A6B;
+        margin-bottom: 25px;
+        flex-grow: 1;
+        margin-left: 10px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .image_country {
+        width: 130px;
+        height: 130px;
+        border-radius: 15px;
+        position: relative;
+        top: -10px;
+    }
+
+    .carousel-btn {
+        margin: 0 8px;
+        cursor: pointer;
+    }
+    .play-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .play {
+        width: 30px !important;
+        height: 30px !important;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .local-delete-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .close__image {
+        width: 20px !important;
+        height: 20px !important;
+
+    }
+    .country{
+        text-align: center;
+    }
+    .prev {
+        order: -1;
+        width:20px;
+    }
+    .next{
+        width:20px;
+    }
+    .next:hover{
+        content: url('../../assets/arrow_next_hover.svg');
+    }
+
+    .prev:hover{
+        content: url('../../assets/arrow_prev_hover.svg');
+    }
+}
