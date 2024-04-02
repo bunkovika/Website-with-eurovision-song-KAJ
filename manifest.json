@@ -1,0 +1,12 @@
+{
+  "short_name": "ESC info",
+  "name": "ESC info App",
+  "icons": [
+    {"src": "android-chrome-192x192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "android-chrome-512x512.png", "sizes": "512x512", "type": "image/png"}
+  ],
+  "start_url": "public/index.html",
+  "display": "standalone",
+  "theme_color": "#D5A2C4",
+  "background_color": "#95559B"
+}
