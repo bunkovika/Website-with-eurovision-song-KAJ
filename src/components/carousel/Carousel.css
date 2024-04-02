@@ -98,7 +98,15 @@
         line-height: 58px;
         color: #FFFFFF;
         margin-bottom: 10px;
+        text-shadow: 1px 1px 2px rgba(108, 53, 143, 0.75);
     }
+    .participants-heading {
+        -webkit-text-shadow: 1px 1px 2px rgba(108, 53, 143, 0.75); /* WebKit */
+        -moz-text-shadow: 1px 1px 2px rgba(108, 53, 143, 0.75); /* Mozilla Firefox */
+        -ms-text-shadow: 1px 1px 2px rgba(108, 53, 143, 0.75); /* Internet Explorer */
+        -o-text-shadow: 1px 1px 2px rgba(108, 53, 143, 0.75); /* Opera */
+    }
+
     .carousel-item:last-child {
         margin-right: 0;
     }
@@ -113,8 +121,8 @@
     .carousel-item:nth-child(2) {
         width: 200px;
         height: 290px;
-
     }
+
     .carousel-item:first-child .image_country,
     .carousel-item:nth-child(3) .image_country {
         width: 140px;
@@ -142,6 +150,7 @@
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
+        text-shadow: 1px 1px 2px rgba(172, 164, 172, 0.58);
         max-width: 9ch;
     }
 
@@ -157,6 +166,7 @@
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
+        text-shadow: 1px 1px 2px rgba(172, 164, 172, 0.58);
     }
 
     .image_country {
@@ -258,6 +268,7 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         max-width: 9ch;
+        text-shadow: 1px 1px 2px rgba(172, 164, 172, 0.58);
     }
 
     .carousel-item .song {
@@ -272,6 +283,7 @@
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
+        text-shadow: 1px 1px 2px rgba(172, 164, 172, 0.58);
     }
 
     .image_country {
@@ -362,6 +374,7 @@
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
+        text-shadow: 1px 1px 2px rgba(172, 164, 172, 0.58);
         max-width: 9ch;
     }
 
@@ -377,6 +390,7 @@
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
+        text-shadow: 1px 1px 2px rgba(172, 164, 172, 0.58);
     }
 
     .image_country {
@@ -433,4 +447,11 @@
     .prev:hover{
         content: url('../../assets/arrow_prev_hover.svg');
     }
+}
+.carousel-item.country,
+.carousel-item .song {
+    -webkit-text-shadow: 1px 1px 2px rgba(172, 164, 172, 0.58); /* WebKit browsers */
+    -moz-text-shadow: 1px 1px 2px rgba(172, 164, 172, 0.58); /* Mozilla Firefox */
+    -ms-text-shadow: 1px 1px 2px rgba(172, 164, 172, 0.58); /* Internet Explorer */
+    -o-text-shadow: 1px 1px 2px rgba(172, 164, 172, 0.58); /* Opera */
 }

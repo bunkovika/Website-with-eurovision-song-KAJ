@@ -78,3 +78,18 @@ input:hover{
     box-shadow: 0 0 10px rgba(78, 40, 92, 0.7);
     border-radius: 20px;
 }
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: rgba(255, 255, 255, 0.95);
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: rgba(255, 255, 255, 0.95);
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: rgba(255, 255, 255, 0.95);
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: rgba(255, 255, 255, 0.95);
+}
