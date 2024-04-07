@@ -31,7 +31,29 @@ Listen to the candidates' songs using a custom audio player designed for playing
 
 ## UI Overview
 ### Home Page
-![image](https://github.com/bunkovika/Website-with-eurovision-song-KAJ/assets/126186977/50174c3b-3f2c-4ef0-8857-81404534d546)
+<img src="https://github.com/bunkovika/Website-with-eurovision-song-KAJ/assets/126186977/50174c3b-3f2c-4ef0-8857-81404534d546" alt="image" width="400px">
+
+### Adding button
+<img src="https://github.com/bunkovika/Website-with-eurovision-song-KAJ/assets/126186977/aa2b4494-968e-4b7b-915e-dcaa08b7cf2f" alt="image" width="400px">
+
 ### Contestants adding form
-![image](https://github.com/bunkovika/Website-with-eurovision-song-KAJ/assets/126186977/505d3500-8809-4cf9-abbd-5f658dfbc9fc)
+<img src="https://github.com/bunkovika/Website-with-eurovision-song-KAJ/assets/126186977/505d3500-8809-4cf9-abbd-5f658dfbc9fc" alt="image" width="400px">
+
+### Completed form 
+<img src="https://github.com/bunkovika/Website-with-eurovision-song-KAJ/assets/126186977/ed33b671-055b-4afc-b00b-69d7edc920ed" alt="image" width="400px">
+
+### Added candidate in the carousel 
+<img src="https://github.com/bunkovika/Website-with-eurovision-song-KAJ/assets/126186977/d68efcf2-fee8-42c6-93b9-183e9d17fdf1" alt="image" width="400px">
+
+### Click into the image of the candidate:
+<img src="https://github.com/bunkovika/Website-with-eurovision-song-KAJ/assets/126186977/bec43d25-4776-41d9-b17e-f1250ac17d46)" alt="image" width="400px">
+
+### Buttons in the carousel item
+1.) add to favourites
+
+2.) delete item
+
+3.) play/stop song
+
+<img src="https://github.com/bunkovika/Website-with-eurovision-song-KAJ/assets/126186977/8f22b2e7-2705-4c8d-a7cf-ddf445a4f00d" width="400px" alt="image" >
 
