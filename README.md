@@ -30,3 +30,8 @@ Favorite candidates can be selected by clicking on a heart icon.
 Listen to the candidates' songs using a custom audio player designed for playing audio files.
 
 ## UI Overview
+### Home Page
+![image](https://github.com/bunkovika/Website-with-eurovision-song-KAJ/assets/126186977/50174c3b-3f2c-4ef0-8857-81404534d546)
+### Contestants adding form
+![image](https://github.com/bunkovika/Website-with-eurovision-song-KAJ/assets/126186977/505d3500-8809-4cf9-abbd-5f658dfbc9fc)
+
