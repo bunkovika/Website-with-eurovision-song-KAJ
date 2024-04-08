@@ -1,6 +1,26 @@
 # Website-with-eurovision-song-KAJ
 ## Project description
 This project is a web application featuring a carousel of contestant items for a song contest. Built using React, it provides users with an interactive platform to view and engage with various contestants representing different countries. Each contestant item within the carousel displays essential details including the country name, candidate picture, song title, and audio.
+## Get started
+The website is available on the following [link](
+https://bunkovika.github.io/Website-with-eurovision-song-KAJ/).
+
+If you want to clone on download the project, in the project directory, you can run:
+
+**! You must have npm installed on your machine!**
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## API Description
 ### File API Integration:
