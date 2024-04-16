@@ -4,7 +4,7 @@ import Carousel from '../carousel/Carousel';
 import Button from '../button/Button';
 import Form from '../form/Form';
 import './App.css';
-
+import {useOnlineStatus} from "../../hooks/useOnlineStatus";
 /**
  * Represents the main application layout, including a header, carousel, and an option to add a new participant.
  * Utilizes state to manage the visibility of a form for adding participants. When the "Add new participant" button is clicked,
@@ -16,6 +16,7 @@ import './App.css';
  */
 const App = () => {
     const [isFormVisible, setFormVisible] = useState(false);
+    const isOnline = useOnlineStatus();
     const showForm = () => {
         setFormVisible(true);
     };
@@ -27,14 +28,15 @@ const App = () => {
     return (
         <div className="mainApp">
             <Header />
+
             <Carousel />
-            <section className="add_button">
+            { isOnline && <section className="add_button">
                 <Button
                     label="Add new participant"
                     onClick={showForm}
                     buttonStyle="button-style-add-participant"
                 />
-            </section>
+            </section>}
             {isFormVisible && (
                 <div className="form-overlay">
                     <Form onClose={hideForm} />

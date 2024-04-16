@@ -1,6 +1,7 @@
 import czech from "../../assets/images/Czech.svg";
 import ukraine from "../../assets/images/Ukraine.svg";
 import norway from "../../assets/images/Norway.svg";
+
 // all items from carousel
 const data = [
     {

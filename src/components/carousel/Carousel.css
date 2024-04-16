@@ -13,7 +13,6 @@
 
 .carousel-wrapper {
     display: flex;
-    transition: transform 0.1s ease;
     justify-content: space-between;
     gap: 20px;
 }
@@ -30,6 +29,7 @@
     justify-content: center;
     align-items: center;
 }
+
 /*------------dots----------------------------------------------------*/
 .carousel-dots {
     display: flex;
@@ -167,6 +167,7 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         text-shadow: 1px 1px 2px rgba(172, 164, 172, 0.58);
+
     }
 
     .image_country {
@@ -181,15 +182,12 @@
         margin: 0 8px;
         cursor: pointer;
     }
-    .next:hover{
-        content: url('../../assets/arrow_next_hover.svg');
-    }
+
+
     .prev {
         order: -1;
     }
-    .prev:hover{
-        content: url('../../assets/arrow_prev_hover.svg');
-    }
+
     .play-container {
         display: flex;
         align-items: center;
@@ -327,17 +325,10 @@
     }
     .prev {
         order: -1;
-        width:25px;
+        width:37px;
     }
     .next{
-        width:25px;
-    }
-    .next:hover{
-        content: url('../../assets/arrow_next_hover.svg');
-    }
-
-    .prev:hover{
-        content: url('../../assets/arrow_prev_hover.svg');
+        width:37px;
     }
 }
 
@@ -360,7 +351,7 @@
         display: flex;
     }
     .carousel-item{
-        width:150px;
+        width: 170px;
         height: 250px;
         margin : 0px;
     }
@@ -394,8 +385,8 @@
     }
 
     .image_country {
-        width: 130px;
-        height: 130px;
+        width: 140px;
+        height: 140px;
         border-radius: 15px;
         position: relative;
         top: -10px;
@@ -435,17 +426,10 @@
     }
     .prev {
         order: -1;
-        width:20px;
+        width:28px;
     }
     .next{
-        width:20px;
-    }
-    .next:hover{
-        content: url('../../assets/arrow_next_hover.svg');
-    }
-
-    .prev:hover{
-        content: url('../../assets/arrow_prev_hover.svg');
+        width:28px;
     }
 }
 .carousel-item.country,
@@ -454,4 +438,10 @@
     -moz-text-shadow: 1px 1px 2px rgba(172, 164, 172, 0.58); /* Mozilla Firefox */
     -ms-text-shadow: 1px 1px 2px rgba(172, 164, 172, 0.58); /* Internet Explorer */
     -o-text-shadow: 1px 1px 2px rgba(172, 164, 172, 0.58); /* Opera */
+}
+.image_offline{
+    width: 140px;
+    height: 160px;
+    background-color: #95559B;
+    border-radius: 25px;
 }
