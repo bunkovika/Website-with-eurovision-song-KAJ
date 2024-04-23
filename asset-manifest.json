@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Website-with-eurovision-song-KAJ/static/css/main.3b3a7e7e.css",
-    "main.js": "/Website-with-eurovision-song-KAJ/static/js/main.31985487.js",
+    "main.js": "/Website-with-eurovision-song-KAJ/static/js/main.b1aa444a.js",
     "static/js/453.8e67ed04.chunk.js": "/Website-with-eurovision-song-KAJ/static/js/453.8e67ed04.chunk.js",
     "static/media/Czech.svg": "/Website-with-eurovision-song-KAJ/static/media/Czech.429cc9bbf047496078fa5eda041a74d6.svg",
     "static/media/Ukraine.svg": "/Website-with-eurovision-song-KAJ/static/media/Ukraine.1accaef24d969f9f80589f8510ee68d6.svg",
@@ -16,11 +16,11 @@
     "static/media/stop.svg": "/Website-with-eurovision-song-KAJ/static/media/stop.771228ca90426b400c6ad1eaaa14e5a6.svg",
     "index.html": "/Website-with-eurovision-song-KAJ/index.html",
     "main.3b3a7e7e.css.map": "/Website-with-eurovision-song-KAJ/static/css/main.3b3a7e7e.css.map",
-    "main.31985487.js.map": "/Website-with-eurovision-song-KAJ/static/js/main.31985487.js.map",
+    "main.b1aa444a.js.map": "/Website-with-eurovision-song-KAJ/static/js/main.b1aa444a.js.map",
     "453.8e67ed04.chunk.js.map": "/Website-with-eurovision-song-KAJ/static/js/453.8e67ed04.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b3a7e7e.css",
-    "static/js/main.31985487.js"
+    "static/js/main.b1aa444a.js"
   ]
 }
