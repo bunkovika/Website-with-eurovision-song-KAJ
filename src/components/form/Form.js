@@ -146,7 +146,7 @@ const Form = ({onClose}) => {
 
     return (
         <form onSubmit={handleSubmit} className="form_for_inputs">
-            <img src={cross} className="close_image" onClick={onClose} />
+            <img src={cross} alt = "close_button" className="close_image" onClick={onClose} />
             <ImageUpload
                 selectedImage={formData.selectedImage}
                 handleImageChange={handleImageChange}

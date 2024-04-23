@@ -30,13 +30,13 @@ const App = () => {
             <Header />
 
             <Carousel />
-            { isOnline && <section className="add_button">
+            { isOnline && <div className="add_button">
                 <Button
                     label="Add new participant"
                     onClick={showForm}
                     buttonStyle="button-style-add-participant"
                 />
-            </section>}
+            </div>}
             {isFormVisible && (
                 <div className="form-overlay">
                     <Form onClose={hideForm} />

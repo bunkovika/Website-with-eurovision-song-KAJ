@@ -233,7 +233,7 @@ const Carousel = () => {
 
     return (
         <section className="carousel">
-            <h2 className="participants-heading">Participants from all countries</h2>
+            <h1 className="participants-heading">Participants from all countries</h1>
             <div className="carousel-container">
                 <div className="carousel-wrapper">
                     {Array.from({length: itemsToShow}).map((_, index) => {
@@ -284,7 +284,7 @@ const Carousel = () => {
                                         alt={isFavorite ? 'delete favorite icon' : 'add favorite icon'}
                                     />}
 
-                                    <p className="country" title={item?.country}>{item?.country}</p>
+                                    <h3 className="country" title={item?.country}>{item?.country}</h3>
                                     {isOnline && !data.includes(item) &&
                                         <>
                                             <img src={cross} className=" close__image"
