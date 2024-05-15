@@ -1,6 +1,9 @@
 # Website-with-eurovision-song-KAJ
 ## Project description
 This project is a web application featuring a carousel of contestant items for a song contest. Built using React, it provides users with an interactive platform to view and engage with various contestants representing different countries. Each contestant item within the carousel displays essential details including the country name, candidate picture, song title, and audio.
+## What does the project have?
+<img width="313" alt="Screenshot 2024-05-15 125224" src="https://github.com/bunkovika/Website-with-eurovision-song-KAJ/assets/126186977/eafa7d0c-319f-4edf-b077-16e8802d83cb">
+
 ## Get started
 The website is available on the following [link](
 https://bunkovika.github.io/Website-with-eurovision-song-KAJ/).
